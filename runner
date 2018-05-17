@@ -1,0 +1,3 @@
+clear
+gcc -w -pthread -lpthread $1 -o run -lm
+./run
